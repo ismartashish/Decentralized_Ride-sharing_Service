@@ -21,3 +21,7 @@ The vision of this project is to create a fair, efficient, and trustless ride-sh
 ## Contract Address
 0x6db212D911CC071d01811326f0f1BFfd1e736D3e
 ![image](https://github.com/user-attachments/assets/e0d56415-2805-48fb-a595-9a34c8e93a85)
+
+## Frontend
+![image](https://github.com/user-attachments/assets/8f1d5bf0-589e-4558-a0c3-12168140ab83)
+
