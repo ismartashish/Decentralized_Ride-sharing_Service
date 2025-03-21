@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decentralized Ride-Sharing</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🚗 Decentralized Ride-Sharing</h1>
+    <p class="subtitle">Book, Accept, and Complete Rides on the Blockchain</p>
+
+    <!-- Connect to Wallet Button -->
+    <div class="connect-wallet">
+      <button id="connectWalletButton">Connect to Wallet</button>
+    </div>
+
+    <!-- Ride Request Section -->
+    <div class="card">
+      <h2>Request a Ride</h2>
+      <input type="number" id="fare" placeholder="Enter Fare (in Wei)" min="1">
+      <button id="requestRideButton" class="btn-primary">Request Ride</button>
+    </div>
+
+    <!-- Ride Acceptance Section -->
+    <div class="card">
+      <h2>Accept a Ride</h2>
+      <input type="number" id="rideId" placeholder="Enter Ride ID">
+      <button id="acceptRideButton" class="btn-secondary">Accept Ride</button>
+    </div>
+
+    <!-- Ride Completion Section -->
+    <div class="card">
+      <h2>Complete a Ride</h2>
+      <input type="number" id="completeRideId" placeholder="Enter Ride ID">
+      <button id="completeRideButton" class="btn-tertiary">Complete Ride</button>
+    </div>
+
+    <!-- Status Messages -->
+    <div id="status" class="message"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
